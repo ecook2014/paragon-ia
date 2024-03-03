@@ -1,6 +1,3 @@
-import { useState, useEffect } from 'react';
-
-/* eslint-disable jsx-a11y/label-has-associated-control */
 
 function WatercraftPositionReport() {
 
