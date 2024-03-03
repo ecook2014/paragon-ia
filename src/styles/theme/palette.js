@@ -1,29 +1,23 @@
 const dark = {
   grey: {
-    100: '#e0e0e0', // USED Headers
+    100: '#e0e0e0',
     200: '#c2c2c2',
-    300: '#CECACA', // Sidebar Titles
+    300: '#CECACA',
     400: '#858585',
     500: '#666666',
-    600: '#525252', // Used - dashboard panes
+    600: '#525252',
     700: '#3d3d3d',
     800: '#292929',
     900: '#141414',
   },
-  // todo: clean theme up and remove unused colors, styles, etc
+
   primary: {
-    // 100: '#d0d1d5',
-    // 200: '#a1a4ab',
-    // 300: '#727681',
-    400: '#272727', // USED Side Nav background, Box fills
-    500: '#181818', // USED - Main background
+    400: '#24d1c6', // USED Side Nav background, Box fills
+    500: '#6b6f75', // USED - Main background
     600: '#111111',
-    // 600: '#101624', // blue
-    // 700: '#0c101b', // blue
-    // 800: '#080b12', // blue
-    // 900: '#040509', // blue
     900: '#000000',
   },
+
   yellowAccent: {
     100: '#fef9c3',
     200: '#fef08a',

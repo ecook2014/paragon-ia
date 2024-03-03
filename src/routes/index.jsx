@@ -1,11 +1,11 @@
 import loadable from '@loadable/component';
 
-const WatercraftPositionReport = loadable(() => import('./WatercraftPositionReport'));
+const Home = loadable(() => import('./Home'));
 
 const routes = [
   {
     path: '/',
-    element: <WatercraftPositionReport />,
+    element: <Home />,
   },
 ];
 
