@@ -1,21 +1,5 @@
 /* Fonts */
-@font-face {
-    font-family: 'Army Sans';
-    src: url('/fonts/USArmy-Regular.otf');
-    src: url('/fonts/USArmy-Regular.otf') format('opentype');
-    font-weight: bold;
-    font-style: normal;
-  }
-  
-  @font-face {
-    font-family: 'Army Sans';
-    src: url('/fonts/USArmy-Light.otf');
-    src: url('/fonts/USArmy-Light.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-  }
-  
-  @font-face {
+ @font-face {
     font-family: 'Army Helvetica';
     src: url('/fonts/HelveticaNeueLTStd-Cn.otf');
     src: url('/fonts/HelveticaNeueLTStd-Cn.otf') format('opentype');
