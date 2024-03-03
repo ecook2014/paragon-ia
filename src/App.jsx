@@ -1,15 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from 'react';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { CssBaseline, StyledEngineProvider } from '@mui/material';
+import { ThemeProvider } from '@mui/material/styles';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+
+import routes from './routes';
+import theme from './styles/theme';
+
+const router = createBrowserRouter(routes, {
+  basename: '/paragon-ia',
+});
+
 
 function App() {
+  const [queryClient] = useState(() => new QueryClient());
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          THIS IS MY APP!!
-        </p>
-      </header>
-    </div>
+    <StyledEngineProvider injectFirst>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <QueryClientProvider client={queryClient}>
+          <RouterProvider router={router} />
+        </QueryClientProvider>
+      </ThemeProvider>
+    </StyledEngineProvider>
   );
 }
 
