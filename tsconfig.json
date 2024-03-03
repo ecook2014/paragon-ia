@@ -1,0 +1,43 @@
+{
+    "include": ["src/**/*"],
+    "compilerOptions": {
+      "jsx": "react-jsx" /* Emit .js files with the JSX changed to _jsx calls */,
+  
+      /* Language and Environment */
+      "target": "ES2019",
+      "lib": ["DOM", "DOM.Iterable", "ES2019"],
+  
+      /* Modules */
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+  
+      "baseUrl": ".",
+      /* Re-map imports to lookup locations relative to the baseUrl */
+      "paths": {
+        "~/*": ["src/*"]
+      },
+  
+      /* JavaScript Support */
+      "allowJs": true,
+      "checkJs": false,
+  
+      /* Emit */
+      /* Let Babel handle the conversion to javascript */
+      "noEmit": true,
+  
+      /* Interop Constraints */
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "noFallthroughCasesInSwitch": true,
+      "allowSyntheticDefaultImports": true,
+      "isolatedModules": true,
+  
+      /* Type Checking */
+      "strict": true,
+  
+      /* Completeness */
+      "skipLibCheck": true
+    }
+  }
+  
