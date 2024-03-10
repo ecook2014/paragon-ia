@@ -1,0 +1,1 @@
+import{e as r,j as t}from"./index-lQPydWRr.js";function s(){const e=r();return e?t.jsx("div",{style:{display:"flex",width:"100%",height:"100%",justifyContent:"center",alignItems:"center",color:"#db4f4a",fontSize:"1rem"},children:e!=null&&e.message?e.message:"There was an error"}):null}export{s as default};
