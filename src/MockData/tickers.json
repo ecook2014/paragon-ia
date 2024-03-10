@@ -1,0 +1,74 @@
+{
+  "results": [
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "market": "stocks",
+      "locale": "US",
+      "primary_exchange": "NASDAQ",
+      "type": "common_stock",
+      "active": true,
+      "currency_name": "USD",
+      "cik": "0000320193",
+      "composite_figi": "BBG000B9XVV8",
+      "share_class_figi": "BBG001S5N8V8",
+      "last_updated_utc": "2022-03-09T00:00:00Z"
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "Alphabet Inc.",
+      "market": "stocks",
+      "locale": "US",
+      "primary_exchange": "NASDAQ",
+      "type": "common_stock",
+      "active": true,
+      "currency_name": "USD",
+      "cik": "0001652044",
+      "composite_figi": "BBG009S39JX6",
+      "share_class_figi": "BBG001BXRST1",
+      "last_updated_utc": "2022-03-09T00:00:00Z"
+    },
+    {
+      "ticker": "MSFT",
+      "name": "Microsoft Corporation",
+      "market": "stocks",
+      "locale": "US",
+      "primary_exchange": "NASDAQ",
+      "type": "common_stock",
+      "active": true,
+      "currency_name": "USD",
+      "cik": "0000789019",
+      "composite_figi": "BBG000BPH459",
+      "share_class_figi": "BBG001S5NJ18",
+      "last_updated_utc": "2022-03-09T00:00:00Z"
+    },
+    {
+      "ticker": "AMZN",
+      "name": "Amazon.com Inc.",
+      "market": "stocks",
+      "locale": "US",
+      "primary_exchange": "NASDAQ",
+      "type": "common_stock",
+      "active": true,
+      "currency_name": "USD",
+      "cik": "0001018724",
+      "composite_figi": "BBG000BVPV84",
+      "share_class_figi": "BBG0016NTPP3",
+      "last_updated_utc": "2022-03-09T00:00:00Z"
+    },
+    {
+      "ticker": "NFLX",
+      "name": "Netflix Inc.",
+      "market": "stocks",
+      "locale": "US",
+      "primary_exchange": "NASDAQ",
+      "type": "common_stock",
+      "active": true,
+      "currency_name": "USD",
+      "cik": "0001065280",
+      "composite_figi": "BBG000CL9VN6",
+      "share_class_figi": "BBG000CL9V75",
+      "last_updated_utc": "2022-03-09T00:00:00Z"
+    }
+  ]
+}
